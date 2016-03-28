@@ -1,0 +1,27 @@
+body{
+	background-color: #eee;
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+#logo{
+	width: 200px;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background-color:red;
+}
+
+#main{
+	background: #efe5d0;
+	font-size:105%;
+	margin: 0 140px 0 220px;
+}
+
+#allimg{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 120px;
+	background: #999;
+}

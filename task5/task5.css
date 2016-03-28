@@ -1,0 +1,177 @@
+*{margin: 0;padding: 0;}
+body{
+	background: #ccc;
+}
+nav{
+	background-color:#333;
+	height:60px;
+	width: 100%;
+}
+
+nav ul{
+	list-style:none;
+	margin:0;
+	float:right;}
+
+nav ul li,nav .logo{
+	display:inline;
+	line-height:50px;
+	margin-right:25px}
+	
+nav ul li a{
+	line-height:inherit;
+	text-decoration:none;
+	display:inline-block;
+	padding:3px;
+	color:#fff;}
+
+ul{
+	list-style:none;
+	margin: 10px;
+	line-height: 20px;
+}
+
+ol{
+	display: block;
+	list-style-type: decimal;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.logo{
+	float:left;
+	padding-left:10px;}
+
+main{
+	position: relative;
+	display: block;
+	padding: 5px;
+}
+
+article{
+	margin: 20px;
+	display: block;
+}
+
+.passage{
+	margin: 30px 460px 30px 30px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 3px 3px 3px #888;
+}
+
+
+h1{
+	display: block;
+	font-size: 2em;
+}
+
+h2{
+	color: #777;
+	font-size: 1em;
+	margin: 12px 0;
+}
+
+
+span{
+	color: #666;
+	font-size: 0.8em;
+	margin: 12px 0;
+}
+p{
+display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.pic1 img{
+	width: 300px;
+}
+
+.pictures {
+	border:  1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+}
+
+table{
+	border-spacing: 2px;
+	border-color: grey;
+}
+th{
+	background: #222;
+	color: #fff;
+}
+th,tr{
+	text-align: center;
+}
+.tdcolor{
+	background: #777;
+	font-weight: bold;
+}
+footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	font-size: 90%;
+	width: 100%;
+	height: 30px;
+}
+
+
+form{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 35px 30px 0 30px;
+	padding: 5px;
+	width: 400px;
+	background: #fff;
+	box-shadow: 3px 3px 3px #888;
+}
+
+form h4{
+	font-size: 1.5em;
+	text-align: center;
+	margin: 20px;
+}
+div.tableRow{
+	display: table-row;
+}
+
+div.tableRow p{
+	display: table-cell;
+	vertical-align: top;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+div.tableRow p:first-child{
+	text-align: right;
+	margin: 50px;
+}
+
+.tishi{
+	font-size: small;
+	color: #bbb;
+}
+textarea{
+	height:100px;
+	width: 200px;
+}
+
+.form-submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #35d;
+    border-radius: 10px;
+}
